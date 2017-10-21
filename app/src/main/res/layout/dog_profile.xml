@@ -149,9 +149,10 @@
                 android:background="?attr/selectableItemBackground"/>
 
             <ImageView
+                android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/adopt"/>
+                android:src="@drawable/adopt" />
         </LinearLayout>
 
         <LinearLayout
@@ -168,11 +169,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/addtofriends"/>
-        </LinearLayout>
-
-
-
+                android:src="@drawable/addfriend"/>
+        </LinearLayout
 
     </LinearLayout>
 </ScrollView>
