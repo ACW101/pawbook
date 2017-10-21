@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.brandeis.cs.kevinwang.tutsplusalerts.MyProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sansa"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Sansa_Stark"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/dog2"
+            android:layout_alignLeft="@+id/dog1"
+            android:layout_alignRight="@+id/dog2"
+            android:layout_alignStart="@+id/dog1"
+            android:layout_below="@+id/label1"
+            android:text="@string/ProfileName"
+            android:textColor="@color/colorBlack"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_above="@+id/dog2" />
+
+
+        <ImageButton
+            android:id="@+id/dog1"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/label2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="15dp"
+            android:src="@drawable/dog3" />
+
+        <ImageButton
+            android:id="@+id/dog2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/doge"
+            android:layout_alignTop="@+id/dog1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
+            android:text="@string/dog_name1"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/dog1"
+            android:layout_alignStart="@+id/dog1" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dog2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/dog2"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginStart="43dp"
+            android:text="@string/dog2_name"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

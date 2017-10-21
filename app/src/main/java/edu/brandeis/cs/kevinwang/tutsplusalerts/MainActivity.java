@@ -1,5 +1,6 @@
 package edu.brandeis.cs.kevinwang.tutsplusalerts;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -40,5 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 fa.logEvent("my_custom_event", eventDetails);
             }
         });
+    }
+
+    public void MyProfile(View view) {
+        Intent intent = new Intent(this, MyProfileActivity.class);
+        startActivity(intent);
     }
 }

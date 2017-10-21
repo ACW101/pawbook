@@ -1,10 +1,16 @@
 <resources>
     <string name="app_name">PawBook</string>
     <string name="dog_name1">Mocha</string>
+    <string name="dog_name2">Cookie</string>
     <string name="dog_type1">Rottweiler</string>
     <string name="dog_age1">1 year old</string>
     <string name="adopted">Adopted</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="button1_name">Go For It</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="Sansa_Stark">Sansa Stark</string>
+    <string name="dog2_name">Cookie</string>
+    <string name="ProfileName">I am Sansa Stark.The Lady of Winterfell. I love dogs. I have two wonderful doggies, Cookie and Dockey. I love them and I hope I can help more homeless dogs</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -16,6 +22,7 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+        completions.</string>
+
+
 </resources>

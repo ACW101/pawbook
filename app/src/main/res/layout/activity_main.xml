@@ -25,4 +25,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Submit"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn_submit"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button1_name"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@color/colorForest"
+        android:onClick="MyProfile"/>
 </LinearLayout>
