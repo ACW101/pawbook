@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777296855456",
+    "firebase_url": "https://tutsplusalerts-5d669.firebaseio.com",
+    "project_id": "tutsplusalerts-5d669",
+    "storage_bucket": "tutsplusalerts-5d669.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777296855456:android:decee64387f4e91c",
+        "android_client_info": {
+          "package_name": "edu.brandeis.cs.kevinwang.tutsplusalerts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777296855456-rvbgmvimla18698enpst4k083m7e50uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.brandeis.cs.kevinwang.tutsplusalerts",
+            "certificate_hash": "1d2b20508cdd2436053d770ac8ea7990714474ad"
+          }
+        },
+        {
+          "client_id": "777296855456-9j9puj1c6p1q6vqp8ilonmvglusf22fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdpOqRnw9kBM6rYgo9zlEL8X27gkMLWTg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777296855456-9j9puj1c6p1q6vqp8ilonmvglusf22fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
